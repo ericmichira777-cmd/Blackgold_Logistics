@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Gold Logistics — Book a truck</title>
+  <meta name="description" content="Book flatbed, box, refrigerated and tanker trucks with Black Gold Logistics. Tell us your cargo, your route, your dates — we handle the rest.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#book">Skip to booking form</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a style="background:white;border-radius:3px;text-decoration:none;"class="brand" href="#top" aria-label="Black Gold Logistics, home">
+      <img src="logo.jpg" alt="Black Gold Logistics logo" class="brand-mark"><span style="color:gold;">Black</span> Gold Logistics
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Services</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#coverage">Coverage</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary" href="#book">Book a truck</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <h1>Freight that keeps its word.</h1>
+        <p class="hero-sub">Give us your pickup, your destination and your cargo — Black Gold Logistics matches you with the right truck and keeps you posted until it's delivered.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="#book">Book a truck</a>
+          <a class="btn btn-ghost btn-lg" href="#how-it-works">See how it works</a>
+        </div>
+
+        <dl class="hero-stats">
+          <div class="stat">
+            <dt>Vehicles dispatched monthly</dt>
+            <dd>500+</dd>
+          </div>
+          <div class="stat">
+            <dt>On-time pickup rate</dt>
+            <dd>98%</dd>
+          </div>
+          <div class="stat">
+            <dt>Regional hubs</dt>
+            <dd>12</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <!--<svg viewBox="0 0 480 360" class="route-svg">
+          <path class="route-line" d="M60,290 C 140,290 150,110 240,110 S 380,60 420,60" />
+          <circle class="route-point origin" cx="60" cy="290" r="7"/>
+          <circle class="route-point dest" cx="420" cy="60" r="7"/>
+          <text class="route-label" x="60" y="316">Nairobi</text>
+          <text class="route-label route-label-end" x="420" y="42">Mombasa</text>
+          <g class="route-marker">
+            <circle r="6" fill="var(--amber-500)"/>
+          </g>
+        </svg>-->
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Trucks for whatever you're moving</h2>
+        <p>Every booking is matched to a vehicle built for the cargo, not just the nearest driver.</p>
+      </div>
+
+      <ul class="manifest-list">
+        <li class="manifest-item">
+        <!--  <div class="manifest-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M4 32h16V16H10l-6 10z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 32h22V20H20z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>-->
+          <div class="manifest-body">
+            <i style="font-size:60px;" class="bi bi-truck-flatbed"></i>
+            <h3>Flatbed</h3>
+            <p>Machinery, timber, steel and oversized loads that need open access from the side or top.</p>
+          </div>
+        </li>
+
+        <li class="manifest-item">
+        <!--  <div class="manifest-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="4" y="14" width="40" height="18" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>-->
+          <div class="manifest-body"
+        >
+           <i style="font-size:60px;" class="bi bi-truck"></i> 
+            <h3>Box truck / dry van</h3>
+            <p>Palletised goods, retail stock and general cargo that needs to stay closed and dry.</p>
+          </div>
+        </li>
+
+        <li class="manifest-item">
+          <div class="manifest-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="4" y="14" width="40" height="18" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 14v18M20 14v18" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="manifest-body">
+            <h3>Refrigerated</h3>
+            <p>Produce, dairy and pharmaceuticals held at a set temperature from pickup to drop-off.</p>
+          </div>
+        </li>
+
+       <!--<!doctype html></html> <li class="manifest-item">
+        <div class="manifest-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="6" y="16" width="30" height="16" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="36" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <div class="manifest-body">
+          <!--  <h3>Tanker &amp; bulk</h3>
+            <p>Fuel, water and dry bulk materials moved in compliant, sealed tanks.</p>-->
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="how" id="how-it-works">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>From request to delivery</h2>
+        <p>Four steps, and you can watch each one happen.</p>
+      </div>
+
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num">1</span>
+          <h3>Request</h3>
+          <p>Fill in your cargo, route and dates in the booking form below.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">2</span>
+          <h3>Confirm</h3>
+          <p>We match you with a truck and driver, and confirm the price and pickup window.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">3</span>
+          <h3>Dispatch</h3>
+          <p>Your driver collects the cargo at the agreed time and starts the route.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">4</span>
+          <h3>Deliver</h3>
+          <p>Cargo arrives at destination and you get a signed proof of delivery.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  
+  <section class="book" id="book">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Book a truck</h2>
+        <p>Tell us what you're shipping and where. We'll send confirmation to the contact details you provide.</p>
+      </div>
+
+      <div class="ticket">
+        <form id="booking-form" class="ticket-form" novalidate>
+
+          <fieldset class="form-group">
+            <legend>Route & Schedule</legend>
+            <div class="field-row">
+              <div class="field">
+                <label for="pickup">Pickup location</label>
+                <input type="text" id="pickup" name="pickup" placeholder="e.g. Nairobi Industrial Area" required>
+              </div>
+              <div class="field">
+                <label for="destination">Destination</label>
+                <input type="text" id="destination" name="destination" placeholder="e.g. Mombasa Port" required>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="pickup-date">Pickup date</label>
+                <input type="date" id="pickup-date" name="pickup-date" required>
+              </div>
+              <div class="field">
+                <label for="pickup-time">Preferred pickup time</label>
+                <input type="time" id="pickup-time" name="pickup-time">
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Cargo details</legend>
+            <div class="field">
+              <label for="cargo-desc">Cargo description</label>
+              <input type="text" id="cargo-desc" name="cargo-desc" placeholder="e.g. 200 bags of cement" required>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="weight">Weight (kg)</label>
+                <input type="number" id="weight" name="weight" min="1" placeholder="e.g. 4500" required>
+              </div>
+              <div class="field">
+                <label for="dimensions">Dimensions (optional)</label>
+                <input type="text" id="dimensions" name="dimensions" placeholder="L x W x H, metres">
+              </div>
+            </div>
+            <div class="field">
+              <label for="truck-type">Truck type</label>
+              <select id="truck-type" name="truck-type" required>
+                <option value="" disabled selected>Select a truck type</option>
+                <option value="flatbed">Flatbed</option>
+                <option value="box">Box truck / dry van</option>
+                <option value="refrigerated">Refrigerated</option>
+                <!--<option value="tanker">Tanker &amp; bulk</option>-->
+              </select>
+            </div>
+            <div class="field checkbox-group">
+              <span class="checkbox-group-label">Handling notes</span>
+              <label class="checkbox"><input type="checkbox" name="handling" value="fragile"> Fragile</label>
+              <label class="checkbox"><input type="checkbox" name="handling" value="hazardous"> Hazardous materials</label>
+              <label class="checkbox"><input type="checkbox" name="handling" value="temperature"> Temperature-controlled</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <legend>Contact details</legend>
+            <div class="field-row">
+              <div class="field">
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" name="full-name" required>
+              </div>
+              <div class="field">
+                <label for="company">Company (optional)</label>
+                <input type="text" id="company" name="company">
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 0712 345 678" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="notes">Additional notes (optional)</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Gate codes, loading instructions, anything else we should know"></textarea>
+            </div>
+          </fieldset>
+
+          <div class="form-footer">
+            <p class="form-note">This form doesn't send data anywhere yet — it's ready to be wired up to a booking backend or email service.</p>
+            <button type="submit" class="btn btn-primary btn-lg">Request pickup</button>
+          </div>
+        </form>
+
+        <div class="ticket-stub" id="confirmation" hidden>
+          <h3>Pickup requested</h3>
+          <p class="ref-label">Booking reference</p>
+          <p class="ref-number" id="ref-number">—</p>
+          <dl class="stub-details" id="stub-details"></dl>
+          <button type="button" class="btn btn-ghost" id="new-booking">Start another booking</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="coverage" id="coverage">
+    <div class="wrap coverage-inner">
+      <div>
+        <h2>Coverage across the region</h2>
+        <p>Black Gold Logistics runs scheduled and on-demand routes between major towns and industrial hubs, with same-week booking on most corridors.</p>
+      </div>
+      <ul class="coverage-list">
+        <li>Nairobi — Mombasa</li>
+        <li>Nairobi — Kisumu</li>
+        <li>Kisumu — Kisii</li>
+        <li>Nairobi — Nakuru — Eldoret</li>
+        <li>Mombasa — Malaba (transit)</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="logo.jpg" alt="Black Gold Logistics logo" class="brand-mark brand-mark-footer">
+      <p class="tagline">Go Beyond</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="tel:+254700000000">+254 712 345 678</a></p>
+      <p><a href="mailto:bookings@blackgoldlogistics.co.ke">bookings@blackgoldlogistics.co.ke</a></p>
+      <p>Nairobi, Kenya</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <p><a href="#services">Services</a></p>
+      <p><a href="#how-it-works">How it works</a></p>
+      <p><a href="#book">Book a truck</a></p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Black Gold Logistics. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
